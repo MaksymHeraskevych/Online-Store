@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Store</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<header class="header">
+
+		<!-- POPUP MENU -->
+
+			<div class="overlay_popup"></div>
+
+
+			<div class="popup" id="popup1">
+				<div class="object">	
+					<div class="header-popup">
+							
+							<div class="logo header-popup__logo">
+								<img src="img/logo.png" alt="logo" class="img logo__img">
+							</div>
+
+							<div class="close">
+								<span></span>
+								<span></span>
+							</div>
+								
+					</div>
+								
+					<ul class="menu-popup">
+						<li><a class="menu-popup__item" href="#">Home</a></li>
+						<li><a class="menu-popup__item" href="#">Products</a></li>
+						<li><a class="menu-popup__item" href="#">Hot Deals</a></li>
+						<li><a class="menu-popup__item" href="#">About</a></li>
+						<li><a class="menu-popup__item" href="#">Contacts</a></li>
+					</ul>
+							
+				</div>
+			</div>
+
+		<div class="contacts flex container">
+			<div class="contacts-left flex">
+				<div class="mail flex">
+					<img class="mail__img" src="img/mail.png" alt="mail" >
+					<div class="mail__info">info@shopy.com</div>
+				</div>
+				<div class="phone flex">
+					<img class="phone__img" src="img/phone.png" alt="phone">
+					<div class="phone__info">453 - 5553 - 996</div>
+				</div>
+			</div>	
+			<div class="contacts-right">
+				<div class="social">
+					<a href="#">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-google-plus-g"></i>
+					</a>
+					<a href="#">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="main-header flex container">
+			<div class="header-left	flex">
+				<img src="img/logo.png" alt="logo">
+
+				
+		
+				<nav class="nav">
+					<ul class="main-menu flex">
+						<li class="main-menu__item">
+							<a class="main-menu__link">Home</a>
+						</li>
+						<li class="main-menu__item">
+							<a class="main-menu__link">Products</a></li>
+						<li class="main-menu__item">
+							<a class="main-menu__link">Hot Deals</a></li>
+						<li class="main-menu__item">
+							<a class="main-menu__link">About</a>
+						</li>
+						<li class="main-menu__item">
+							<a class="main-menu__link">Contact</a>
+						</li>
+					</ul>				
+				</nav>
+			</div>
+			<div class="header-right flex">
+				<div class=" header-right header-right__search"><i class="fas fa-search"></i></div>
+				<div class=" header-right header-right__man"><img src="img/user.png" alt=""></div>
+				<div class=" header-right header-right__order"><i class="fas fa-shopping-basket"></i><span class="quantity">5</span></div>
+				<div class="menu-hamburger window" rel="popup1">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<section class="main container">
+		<div class="main-block flex">
+			<div class="product-title__title product-title__title-adaptive">FULL WINTER KIT</div>
+			<div class="product-img ">
+					<div class="main-img">
+						<img src="img/product.jpg" alt="quantity">
+					</div>
+
+					<div class="images">
+						<div class="image">
+						    <img src="img/product1.jpg" alt="">
+						  </div>
+						  <div class="image">
+						    <img src="img/product2.jpg" alt="">
+						  </div>
+						  <div class="image image__main">
+						    <img src="img/product3.jpg" alt="">
+						  </div>
+					</div>
+					
+			</div>
+			<div class="product-title">
+				<div class="product-title__title">FULL WINTER KIT</div>
+				<div class="product-title__subtitile">Half Jacket + Skiny Trousers + Boot leather</div>
+				<div class="product-title__info"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry
+					Lorem Ipsum is simply dummy text of the printing <br>
+					 and typesetting industry</p>
+				</div>
+	
+				
+				<div class="choos flex">
+					<div class="choos-size flex">
+						<div class="choos-size__title">Choos Size</div>
+						<div class="choos-size-item"><a>S -</a>
+						<a>M -</a>
+						<a>L -</a>
+						<a>XL</a></div>
+					</div>
+					<div class="choos-quantity flex">
+						<div class="choos-quantity__title">
+							Choos Quantity
+						</div>
+						<div class="input-group quantity_goods">
+							<input type="button" value="+" id="button_plus" class="value-quantity__goods">
+							<input type="number" step="1" min="1" max="10" id="num_count" name="quantity" value="1" title="Qty">
+							<input type="button" value="-" id="button_minus" class="value-quantity__goods">
+						</div>
+
+					</div>	
+				</div>	
+
+				<div class="order-block flex">
+						<div class="price">Price: 120$</div>
+						<div class="block-main flex">
+							<div class="buy-button">
+								<img class="buy-button__img" src="img/share.png" alt="">
+								<img class="buy-button__img" src="img/add.png" alt="">
+								<img class="buy-button__img" src="img/like.png" alt="">
+							</div>
+							<button class="btn">Order Now</button>
+						</div>
+				</div>
+
+			</div>
+		</div>
+		
+	</section>
+
+	<script src="js/jquery-3.3.1.js"></script>	
+	<script src="js/script.js"></script>
+</body>
+</html>
